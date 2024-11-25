@@ -146,7 +146,7 @@ app.put("/posts/:id", authenticate, async (req, res) => {
 });
 
 // Chạy server
-const PORT = 8081;
+const PORT = 8080;
 app.listen(PORT, () => {
   console.log(`Server đang chạy trên cổng ${PORT}`);
 });
